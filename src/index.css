@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
+
+* {
+  margin: 0;
+  box-sizing: border-box
+}
+
+
+
+body {
+
+  font-family: 'Mukta',
+  sans-serif;
+  background-color:#f08e8e;
+}
+
+#root{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  min-height: 100vh;
+}
+
+
+.box{
+  background-color: rgb(252, 185, 185);
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 9px 9px 4px 1px rgba(0, 0, 0, 0.1);
+  width: 600px;
+  max-width: 100%;
+  text-align: center;
+
+}
+
+h1{
+  margin-top: 0;
+  font-size: 4rem;
+  color: rgb(180, 39, 62);
+  text-shadow: 2px 2px rgba(255, 107, 107, 0.7);
+
+}
+
+ p{
+  margin: 2rem;
+  color:  rgb(85, 24, 24);
+    font-size: 1.4rem;
+  
+}
+
+button{
+  background-color: #ec8282;
+  border: 0;
+  color: rgb(36, 16, 16);
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor:pointer;
+  font-weight: bold;
+  box-shadow: 0px 4px 0px 0px rgba(184, 94, 94, 0.9);
+  padding: .5rem 1rem;
+}
+
+button:focus{
+  outline: none;
+}
+button:active{
+ 
+transform: scale(.95);
+}
+
+button:hover{
+  background-color: #ec95b4;
+  color: rgb(53, 34, 53);
+   box-shadow: 0px 4px 0px 0px rgba(232, 67, 147, .9);
+}
+
+@media(max-width: 600px){
+  .box{
+    padding: 40px;
+    width: 90%;
+    height: 90%;
+  }
+}
